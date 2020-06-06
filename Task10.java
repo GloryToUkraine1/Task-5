@@ -4,15 +4,15 @@ import java.util.*;
 public class Task10 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		System.out.printf("Print in nubmer: ");
+		System.out.printf("Напишите номер: ");
 		int number = Integer.parseInt(input.nextLine());
-		System.out.println("Result: ");
+		System.out.println("Результат: ");
 		System.out.println(hexLattice(number));
 	}
 
 
 	public static String hexLattice(int number) {
-		if (number % 6 != 1) return "Invalid";
+		if (number % 6 != 1) return "Недействительно";
 		if (number == 1) return "o";
 		int levels = 1;
 		int i = 0;
