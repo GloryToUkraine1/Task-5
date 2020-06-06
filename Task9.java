@@ -4,9 +4,9 @@ import java.util.*;
 public class Task9 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		System.out.printf("Print in wrong title: ");
+		System.out.printf("Напишите в неправильном заголовке: ");
 		String title = input.nextLine();
-		System.out.printf("Correct title: %s\n", correctTitle(title));
+		System.out.printf("Правильный заголовок: %s\n", correctTitle(title));
 	}
 
 
